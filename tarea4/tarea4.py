@@ -20,8 +20,8 @@ class InstagramTestConfig:
     TIMEOUT = 5
     
     # Credenciales de prueba (reemplazar con credenciales reales para testing)
-    TEST_USERNAME = 'joseantonio_colonpena'
-    TEST_PASSWORD = 'Colon@259'
+    TEST_USERNAME = '9999999'
+    TEST_PASSWORD = '999999'
     
     # Credenciales inválidas para tests negativos
     INVALID_USERNAME = 'usuario_inexistente_12345'
@@ -242,4 +242,5 @@ if __name__ == "__main__":
         "--self-contained-html",
         "-v",
         "--tb=short"
+
     ])
